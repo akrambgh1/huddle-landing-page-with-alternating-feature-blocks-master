@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+:root{
+    --heading:'Poppins', sans-serif;
+    --body:'Open Sans', sans-serif;
+    
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(141, 140, 140);
+    border-radius: 10px;
+  }
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: var(--heading);
+}
+.page-1{
+    overflow: hidden;
+    padding: 0% 5% 0 5%;
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: hsl(191, 89%, 96%);
+}
+header{
+    font-family: var(--heading);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 50px 0 ;
+}
+header a{
+    text-decoration: none;
+    background: white;
+    font-weight: bolder;
+    width: 200px;
+    height: 50px;
+    color: black;
+    box-shadow: 1px 1px 10px rgb(219, 219, 219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+header a:hover{
+    color: rgb(134, 134, 134);
+}
+
+.container{
+    gap: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container .img img{
+    width: 830px;
+    height: 600px;
+}
+.container div h1{
+    position: relative;
+    top: -23px;
+    width: 550px;
+    font-family: var(--heading);
+    font-weight: bolder;
+    font-size: 50px;
+}
+.container div p{
+    font-family: var(--body);
+    font-size: 20px;
+    width: 600px;
+    color: hsl(208, 11%, 55%);
+}
+.container div button{
+    width: 45%;
+    height: 50px;
+    background: hsl(322, 99%, 66%);
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    color: white;
+}
+.container div button:hover{
+    background: hsl(322, 100%, 80%);
+}
+.page-2
+{
+    position: relative;
+    padding: 5% 5% 15% 5%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+}
+.box {
+    width: 90%;
+    height: auto; 
+    box-shadow: 1px 1px 10px rgb(219, 219, 219);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 2% 2% 2% 5%;
+    border-radius: 5px;
+}
+.box img {
+    width: 450px;
+    height: 400px;
+}
+.box div P{
+    font-size: 20px;
+    width: 550px;
+    line-height: 30px;
+    font-family: var(--body);
+    color: hsl(208, 11%, 55%);
+}
+.box div h1
+{
+    position: relative;
+    top: -10px;
+    font-family: var(--heading);
+    font-size: 30px;
+}
+.redy{
+    position: absolute;
+    bottom: -80px;
+    height: 250px;
+    background: white;
+    width: 50%;
+    box-shadow: 0.5px 0.5px 4px rgb(178, 178, 178);
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 20px ;
+}
+.redy h1{
+    font-size: 30px;
+}
+.redy button{
+    width: 50%;
+    height: 60px;
+    background: hsl(322, 99%, 66%);
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: var(--body);
+    color: white;
+}
+.redy button:hover{
+    background: hsl(322, 100%, 80%);
+}
+footer{
+    color: white;
+    font-family: var(--body);
+
+    height: 400px;
+    background: hsl(192, 100%, 9%);
+    padding: 5% 5% 5% 5%;
+}
+ .logo2{ 
+    width: 150px;
+    position: relative;
+    top: -0px;
+}
+.img-logo{
+    width: 150px;
+    height: 50px;
+    margin-right:100% ;
+}
+footer ul{
+    text-align: start;
+    list-style: none;
+    line-height: 40px;
+    font-size: 18px;
+}
+    footer .about ul  {
+        width: 150px;
+    }
+footer .us ul  {
+    width: 150px;
+}
+span{
+    margin-top: 5px;
+}
+footer ul img{
+    margin-right: 10px;
+}
+footer a{
+    text-decoration:none;
+    color: white;
+    transition: all .4s;
+}
+footer a:hover{
+    border-bottom: 2px solid white;
+}
+
+ .spans
+ {
+    font-size: 15px;
+    line-height: 30px;
+    align-items: flex-start;
+    display: flex;
+ }
+.scp{
+    position: relative;
+}
+.scp p{
+    position: relative;
+   bottom: -60px;    right:-50px ;
+}
+.socail{
+    gap: 10PX;
+    height: 100px;
+    width: 550px;
+    display: flex;
+
+}
+.t{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: 0.5S;
+}
+.t:hover{
+color: hsl(322, 92%, 64%);
+border: 1px solid hsl(322, 92%, 64%);
+}
+.spans  a:hover{
+        text-decoration: underline;
+        border: none;
+}
+@media screen  and (max-width:800px){
+
+    .page-2{
+        margin-bottom: 100px;
+    }
+    header{
+        
+        padding: 40px 0 100px 0 ;
+    }
+    .lo{
+        width: 100px;
+    }
+    header a{
+        font-size: 15px;
+        width: 120px;
+        height: 30px;
+        
+    }
+     .page-1 .container{
+        display: flex;
+       flex-direction: column;
+    }
+    .container .img img{
+        width: 330px;
+        height: 230px;
+    }
+    .container div h1{
+        text-align: center;
+        position: relative;
+        top:0;
+        width: 300px;
+        font-size: 20px;
+    }
+    .container div p{
+        text-align: center;
+        font-size: 16px;
+        width: 300px;
+    }
+    .container div button{
+        width: 90%;
+    }
+    
+
+    .box {
+        width: 100%;
+        height: auto; 
+        gap: 40px;
+         flex-direction: column-reverse;
+         align-items: center;
+    }
+    .flowing{
+        flex-direction: column;
+    }
+    .box div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box img {
+        width: 250px;
+        height: 200px;
+    }
+    .box div P{
+        text-align: center;
+        font-size: 15px;
+        width:auto;
+        ;
+    }
+    .box div h1
+    {
+        position: relative;
+        top: 0;
+        font-size: 20px;
+    }
+
+
+
+
+    .redy{
+        position: absolute;
+        bottom: -170px;
+        height: 150px;
+        width: 90%;
+        padding: 5%;
+        gap: 15px;
+    }
+    .redy h1{
+        font-size: 18px;
+    }
+    .redy button{
+        width: 70%;
+        height: 50px;
+        
+        border-radius: 30px;
+       
+        font-size: 15px;
+        
+    }
+    
+
+
+
+
+
+
+
+
+    footer{
+        height: auto;
+        padding: 100px 20px 20px 20px;
+    }
+    footer .container {
+        align-items:flex-start ;
+        flex-direction: column;
+        gap: 20px;
+    }
+    footer .socail{
+        width: 300px ; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    
+}
